@@ -1,0 +1,28 @@
+.header{
+    padding:20px 50px 0 50px;
+    .header-items{
+        @include flex-between;
+        .header__navigation_block{
+            width: 400px;
+            .header__nav-items{
+                padding: 0;
+                list-style-type: none;
+                @include flex-between;
+            }
+        }
+        .header-items__secarch-block{
+            button{
+                position: relative;
+                padding: 10px 50px;
+                background-color: white;
+                border-radius: 50px;
+                i{
+                    position: absolute;
+                    top: 6px;
+                    left: 15px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

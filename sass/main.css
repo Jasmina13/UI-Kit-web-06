@@ -1,0 +1,76 @@
+.container {
+  padding: 20px 50px 0 50px;
+}
+
+.header {
+  padding: 20px 50px 0 50px;
+}
+.header .header-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header-items .header__navigation_block {
+  width: 400px;
+}
+.header .header-items .header__navigation_block .header__nav-items {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header-items .header-items__secarch-block button {
+  position: relative;
+  padding: 10px 50px;
+  background-color: white;
+  border-radius: 50px;
+}
+.header .header-items .header-items__secarch-block button i {
+  position: absolute;
+  top: 6px;
+  left: 15px;
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main-section {
+  padding: 20px 50px 0 50px;
+}
+.main-section .main-section__items .main-section__title-img {
+  height: 260px;
+}
+.main-section .main-section__items .main-section__title {
+  width: 950px;
+  margin: 0 auto;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+.main-section .main-section__items .main-section__title h1 {
+  font-weight: normal;
+}
+.main-section .main-section__items .main-section__text {
+  position: relative;
+  text-align: right;
+  height: 350px;
+}
+.main-section .main-section__items .main-section__text .main-section-text__title {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  width: 600px;
+  font-size: 30px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-section .main-section__items .main-section__text .main-section-text__title h2, .main-section .main-section__items .main-section__text .main-section-text__title p {
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */
